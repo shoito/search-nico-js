@@ -1,0 +1,27 @@
+{
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles" : true
+    },
+    "systemName": "search-nico-js",
+    "footer": "",
+    "copyright": "Developed by @shoito",
+    "navType": "vertical",
+    "theme": "darkstrap",
+    "linenums": false,
+    "collapseSymbols": false,
+    "inverseNav": true,
+  },
+  "markdown": {
+    "parser": "gfm",
+    "hardwrap": true
+  },
+  "opts": {
+    "template": "node_modules/grunt-jsdoc/node_modules/ink-docstrap/template"
+  }
+}

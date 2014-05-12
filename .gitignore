@@ -1,0 +1,5 @@
+.env.json
+.tmp
+
+node_modules
+components

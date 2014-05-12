@@ -1,0 +1,11 @@
+.jshintignore
+.jshintrc
+
+/.editorconfig
+/.gitattributes
+/.travis.yml
+
+/example
+/node_modules
+/test
+/Gruntfile.js
