@@ -2,7 +2,7 @@
   "name": "search-nico-js",
   "title": "search-nico-js",
   "description": "niconico Search API Client Library for JavaScript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "search-nico.js",
   "homepage": "https://github.com/shoito/search-nico-js",
   "author": {

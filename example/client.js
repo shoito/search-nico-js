@@ -18,6 +18,7 @@ var csPromise = cs.service('video')
                 ])
                 .sort('view_counter', 'asc')
                 .select(['cmsid','title','description','view_counter','mylist_counter'])
+                .from(0)
                 .size(5)
                 .fetch();
 
@@ -35,6 +36,7 @@ var ts = SearchNico.tags({
 
 var tsPromise = ts.service('video')
                 .keyword('fuga')
+                .from(0)
                 .size(3)
                 .fetch();
 
