@@ -236,6 +236,19 @@ if (typeof window === 'undefined') {
         };
 
         /**
+         * 検索結果の取得開始位置を設定する
+         * @memberof SearchNico.ContentsSearchRequest
+         * @method from
+         * @instance
+         * @param {Number} from - 検索結果の取得開始位置
+         * @return {ContentsSearchRequest} コンテンツ検索リクエストインスタンス
+         */
+        ContentsSearchRequest.prototype.from = function(from) {
+            query.from = from;
+            return this;
+        };
+
+        /**
          * 検索結果の取得件数を設定する
          * @memberof SearchNico.ContentsSearchRequest
          * @method size
@@ -338,6 +351,19 @@ if (typeof window === 'undefined') {
          */
         TagsSearchRequest.prototype.keyword = function(keyword) {
             query.query = keyword;
+            return this;
+        };
+
+        /**
+         * 検索結果の取得開始位置を設定する
+         * @memberof SearchNico.TagsSearchRequest
+         * @method from
+         * @instance
+         * @param {Number} from - 検索結果の取得開始位置
+         * @return {TagsSearchRequest} 関連タグ検索リクエストインスタンス
+         */
+        TagsSearchRequest.prototype.from = function(from) {
+            query.from = from;
             return this;
         };
 
