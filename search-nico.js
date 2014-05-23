@@ -1,3 +1,5 @@
+// search-nico-js v0.1.1
+// License: MIT
 'use strict';
 
 /**
