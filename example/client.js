@@ -1,3 +1,5 @@
+// MIT License
+//
 // Setup
 // npm install search-nico-js --save
 var Promise = require('promise'),
